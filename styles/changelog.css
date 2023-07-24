@@ -1,0 +1,33 @@
+.change_container {
+    padding: 10% 0 5% 0;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.pass_content_title_lorem {
+    color: #7D7D7D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (max-width: 1300px) {
+    .change_container {
+        padding: 10% 0 10% 0;
+        width: 100%;
+        height: 50vh;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}

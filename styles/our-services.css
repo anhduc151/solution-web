@@ -1,0 +1,484 @@
+/* css our_services_headings */
+.our_services_headings {
+  display: flex;
+  width: 100%;
+  padding-top: 10%;
+}
+
+.our_services_headings_left {
+  background-color: #37393f;
+  padding: 6%;
+  width: 40%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.our_services_headings_left_p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.our_services_headings_right {
+  background-color: #6b77e5;
+  padding: 2%;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.our_services_headings_left_h2 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 3.75rem;
+  font-weight: 700;
+}
+
+.our_services_headings_left_p1 {
+  color: #b9b9b9;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.our_services_headings_right_child1 {
+  display: flex;
+  /* gap: 1rem; */
+  flex-direction: column;
+}
+
+.our_services_headings_right_child1_up {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.our_services_headings_right_child1_down {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.our_services_headings_right_child1_h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.our_services_headings_right_child1_span {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Poppins;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* css our_provide */
+.our_provide {
+  display: flex;
+  padding: 4% 0;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* css our_offer */
+.our_offer {
+  background-color: #37393f;
+  display: flex;
+  gap: 2rem;
+  padding: 5% 20%;
+  flex-direction: column;
+}
+
+.our_offer_up {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.our_offer_up_child1_p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.our_offer_up_child1_h2 {
+  color: #fff;
+  width: 400px;
+  font-family: Poppins;
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+.our_offer_up_child1_p1 {
+  color: #fff;
+  width: 450px;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.our_offer_box1 {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.our_offer_box {
+  border: 1px solid #646464;
+  border-radius: 10px;
+  padding: 2%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.our_offer_box:hover {
+  border: 1px solid #646464;
+  background-color: #6b77e5;
+  color: #fff;
+}
+
+.our_offer_box_down_h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.5625rem;
+  font-weight: 600;
+}
+
+.our_offer_box_down_p {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+/* css our_grows */
+.our_grows {
+  display: flex;
+  gap: 1rem;
+  padding: 5% 15%;
+  flex-direction: column;
+}
+
+.our_grows_up_p {
+  color: #37393f;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.home_care_right_h2 {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+.our_grows_down {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.our_grows_down_left {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.our_grows_down_left_p {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.our_grows_down_left_child1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our_grows_down_left_child1_box1 {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.our_grows_down_left_child1_box {
+  display: flex;
+}
+
+.our_grows_down_left_child1_box2 {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+
+.our_grows_down_left_child1_p {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.our_grows_down_left_child1_span {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding-right: 5px;
+}
+
+.our_grows_down_left_buttons {
+  background-color: #6b77e5;
+  border-radius: 5px;
+  border: none;
+  padding: 2%;
+  width: 150px;
+}
+
+.our_grows_down_left_buttons:hover {
+  background-color: #5160e5;
+}
+
+.our_grows_down_right {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.our_grows_down_right_up,
+.our_grows_down_right_down {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 4%;
+  display: flex;
+  gap: 1rem;
+  width: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.our_grows_down_right_up_child1_h4 {
+  color: #37393f;
+  font-family: Inter;
+  font-size: 1.22819rem;
+  font-weight: 400;
+}
+
+.our_grows_down_right_up_child1_h3 {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 1.38169rem;
+  font-weight: 600;
+}
+
+.our_grows_down_right_up_child1_p {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.our_services_headings_right_child1_up_images {
+  max-width: 100%;
+  width: 150px;
+  object-fit: contain;
+  max-height: 100%;
+}
+
+.our_provide_headings_imgs {
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive our-services */
+@media screen and (min-width: 1300px) and (max-width: 1500px) {
+  .our_offer {
+    padding: 5% 10%;
+  }
+
+  .our_services_headings_left_p {
+    font-size: 1rem;
+  }
+
+  .our_services_headings_left_h2 {
+    font-size: 2.5rem;
+  }
+
+  .our_services_headings_left_p1 {
+    font-size: 1rem;
+  }
+
+  .our_services_headings_right_child1_up_images {
+    width: 120px;
+    height: 120px;
+  }
+
+  .our_services_headings_right_child1 {
+    gap: 1rem;
+  }
+
+  .our_services_headings_right_child1_h1 {
+    font-size: 10rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .our_offer {
+    padding: 5% 7%;
+  }
+
+  .our_offer_up_child1_p {
+    font-size: 1rem;
+  }
+
+  .our_offer_up_child1_h2 {
+    font-size: 1.5rem;
+  }
+
+  .our_offer_up_child1_p1 {
+    font-size: 0.8rem;
+  }
+
+  .our_offer_box1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .our_offer_box {
+    width: 100%;
+  }
+
+  .our_offer_up {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .our_grows_down {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .our_services_headings_left_p {
+    font-size: 1rem;
+  }
+
+  .our_services_headings_left_h2 {
+    font-size: 1.5rem;
+  }
+
+  .our_services_headings_left_p1 {
+    font-size: 1rem;
+  }
+
+  .our_services_headings_right_child1_up_images {
+    width: 90px;
+    height: 90px;
+  }
+
+  .home_brand_child1_box {
+    padding: 6%;
+  }
+
+  .our_services_headings_right_child1 {
+    gap: 1rem;
+  }
+
+  .our_services_headings_right_child1_h1 {
+    font-size: 6rem;
+  }
+
+  .our_services_headings_right_child1_span {
+    font-size: 2rem;
+  }
+
+  .our_services_headings_left {
+    width: 30%;
+  }
+
+  .our_services_headings_right {
+    width: 70%;
+  }
+
+  .our_services_headings {
+    padding-top: 12%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .our_grows_up_p {
+    font-size: 0.8rem;
+  }
+
+  .home_care_right_h2 {
+    font-size: 1rem;
+  }
+
+  .our_grows_down_left_p {
+    font-size: 1rem;
+  }
+
+  .our_grows_down_left_child1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .our_grows {
+    padding: 4%;
+  }
+
+  .our_grows_down_right_up_child1_h4 {
+    font-size: 1rem;
+  }
+
+  .our_grows_down_right_up_child1_h3 {
+    font-size: 1rem;
+  }
+
+  .our_grows_down_right_up_child1_p {
+    font-size: 1rem;
+  }
+
+  .our_grows_down_right_up,
+  .our_grows_down_right_down {
+    width: 100%;
+  }
+
+  .home_brand_child1_box {
+    padding: 6%;
+  }
+
+  .our_services_headings {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .our_services_headings_left {
+    width: 100%;
+  }
+
+  .our_services_headings_right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
